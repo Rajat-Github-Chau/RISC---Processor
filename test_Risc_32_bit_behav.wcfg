@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_Risc_32_bit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_Risc_32_bit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="140000001fs"></ZoomEndTime>
+      <Cursor1Time time="140000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test_Risc_32_bit/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_write_en" type="logic">
+      <obj_property name="ElementShortName">reg_write_en</obj_property>
+      <obj_property name="ObjectShortName">reg_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_wr_addr" type="array">
+      <obj_property name="ElementShortName">reg_wr_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wr_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_wr_data" type="array">
+      <obj_property name="ElementShortName">reg_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_rd_data_1" type="array">
+      <obj_property name="ElementShortName">reg_rd_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_rd_addr_1" type="array">
+      <obj_property name="ElementShortName">reg_rd_addr_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_addr_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/reg_file/reg_rd_addr_2" type="array">
+      <obj_property name="ElementShortName">reg_rd_addr_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_addr_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/dm/mem_access_addr" type="array">
+      <obj_property name="ElementShortName">mem_access_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_access_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/dm/mem_write_data" type="array">
+      <obj_property name="ElementShortName">mem_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/dm/mem_read_data" type="array">
+      <obj_property name="ElementShortName">mem_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_Risc_32_bit/uut/DU/pc2" type="array">
+      <obj_property name="ElementShortName">pc2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc2[31:0]</obj_property>
+   </wvobject>
+</wave_config>
